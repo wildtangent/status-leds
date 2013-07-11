@@ -2,7 +2,6 @@ require 'gpio'
 
 class LedStatusChecker
 
-
   def initialize
     @led = GPIO::Led.new(pin: 17)
   end
